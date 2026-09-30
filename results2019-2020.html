@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CFRappCSSfiles/results2019-2020Design.css" />
+    <title>2019 - 2020 Season Results</title>
+  </head>
+  <body class="pageBackground1920">
+    <h2 id="chooseCompetition1920Message" style="text-align: center;">Choose the competition of season 2019-2020 !</h2>
+    <div id="seasonElements1920">
+      <div id="season1920buttons">
+        <button
+          onclick="closeLigaI1920MainAndPlayOffResults()"
+          id="ligaI1920button"
+        >
+          <p id="ligaI1920text">Liga I. 2019-2020</p>
+        </button>
+        <button
+          onclick="closeCupaRomaniei1920Results()"
+          id="cupaRomaniei1920button"
+        >
+          <p id="cupaRomaniei1920text">CUPA României 2019-2020</p>
+        </button>
+        <button
+          onclick="closeSupercupaRomaniei20Results()"
+          id="supercupaRomaniei20button"
+        >
+          <p id="supercupaRomaniei20text">SUPERCUPA României 2020</p>
+        </button>
+        <button
+          onclick="closeUefaChampionsLeague1920Results()"
+          id="uefaChampionsLeague1920button"
+        >
+          <p id="uefaChampionsLeague1920text">
+            UEFA Champions League<br />2019-2020
+          </p>
+        </button>
+        <button
+          onclick="closeUefaEuropaLeague1920Results()"
+          id="uefaEuropaLeague1920button"
+        >
+          <p id="uefaEuropaLeague1920text">UEFA Europa League<br />2019-2020</p>
+        </button>
+      </div>
+      <div id="competitionsTable1920">
+        <div
+          class="ChampionshipTable1920"
+          id="ligaIresults1920"
+          style="display: none"
+        >
+          <h2>LIGA I. 2019-2020</h2>
+          <button
+            id="LigaI1920MainRoundResultsButton"
+            onclick="showAndHideLigaI1920MainRoundTable()"
+          >
+            <p id="buttonText">Show/Hide Main Round results</p>
+          </button>
+          <table id="LigaI1920MainRoundTable" style="display: none">
+            <thead>
+              <tr>
+                <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Round">RND.</abbr></b></td>
+                <td colspan="6" style="text-align: center; background-color: #BBF3FF;"><b>Teams name</b></td>
+                <td style="background-color: #BBF3FF;"><b>Result</b></td>
+              </tr>
+            </thead>
+            <tr>
+              <td><p>1</p></td>
+              <td colspan="6">
+                <p>CFR-1907 CLUJ-NAPOCA<br />FC POLITEHNICA Iaşi</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>14</p></td>
+              <td colspan="6">
+                <p><b>FC POLITEHNICA Iaşi</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: pink"><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td colspan="6">
+                <p>FC ACADEMICA Clinceni<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td style="background-color: lightgreen"><p>1-4</p></td>
+            </tr>
+            <tr>
+              <td><p>15</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC ACADEMICA Clinceni</p>
+              </td>
+              <td style="background-color: lightgreen"><p>3-0</p></td>
+            </tr>
+            <tr>
+              <td><p>3</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC DINAMO 1948 Bucureşti</p>
+              </td>
+              <td style="background-color: lightgreen"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>16</p></td>
+              <td colspan="6">
+                <p>FC DINAMO 1948 Bucureşti<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>4</p></td>
+              <td colspan="6">
+                <p>AFC CHINDIA Tîrgovişte<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td style="background-color: lightgreen"><p>1-4</p></td>
+            </tr>
+            <tr>
+              <td><p>17</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />AFC CHINDIA Tîrgovişte</p>
+              </td>
+              <td style="background-color: lightgreen"><p>4-0</p></td>
+            </tr>
+            <tr>
+              <td><p>5</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />AFC HERMANNSTADT</p>
+              </td>
+              <td style="background-color: lightgreen"><p>3-0</p></td>
+            </tr>
+            <tr>
+              <td><p>18</p></td>
+              <td colspan="6">
+                <p>AFC HERMANNSTADT<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>6</p></td>
+              <td colspan="6">
+                <p>ACS SEPSI OSK Sfântu Gheorghe<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>19</p></td>
+              <td colspan="6">
+                <p>
+                  <b>CFR-1907 CLUJ-NAPOCA</b><br />ACS SEPSI OSK Sfântu Gheorghe
+                </p>
+              </td>
+              <td style="background-color: lightgreen"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>7</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC Botoşani</p>
+              </td>
+              <td style="background-color: lightgreen"><p>4-1</p></td>
+            </tr>
+            <tr>
+              <td><p>20</p></td>
+              <td colspan="6">
+                <p><b>FC Botoşani</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: pink"><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>8</p></td>
+              <td colspan="6">
+                <p><b>AFC ASTRA Giurgiu</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: pink"><p>3-2</p></td>
+            </tr>
+            <tr>
+              <td><p>21</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />AFC ASTRA Giurgiu</p>
+              </td>
+              <td style="background-color: lightgreen"><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>9</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC Voluntari</p>
+              </td>
+              <td style="background-color: lightgreen"><p>5-0</p></td>
+            </tr>
+            <tr>
+              <td><p>22</p></td>
+              <td colspan="6">
+                <p>FC Voluntari<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td style="background-color: lightgreen"><p>0-4</p></td>
+            </tr>
+            <tr>
+              <td><p>10</p></td>
+              <td colspan="6">
+                <p>FC FCSB Bucureşti<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>23</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC FCSB Bucureşti</p>
+              </td>
+              <td style="background-color: lightgreen"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>11</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />CS GAZ METAN Mediaş</p>
+              </td>
+              <td style="background-color: lightgreen"><p>3-0</p></td>
+            </tr>
+            <tr>
+              <td><p>24</p></td>
+              <td colspan="6">
+                <p>CS GAZ METAN Mediaş<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>12</p></td>
+              <td colspan="6">
+                <p><b>FC VIITORUL Constanţa</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: pink"><p>3-1</p></td>
+            </tr>
+            <tr>
+              <td><p>25</p></td>
+              <td colspan="6">
+                <p>CFR-1907 CLUJ-NAPOCA<br />FC VIITORUL Constanţa</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>13</p></td>
+              <td colspan="6">
+                <p>
+                  <b>CFR-1907 CLUJ-NAPOCA</b><br />CS UNIVERSITATEA Craiova 1948
+                </p>
+              </td>
+              <td style="background-color: lightgreen"><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>26</p></td>
+              <td colspan="6">
+                <p>
+                  CS UNIVERSITATEA Craiova 1948<br /><b>CFR-1907 CLUJ-NAPOCA</b>
+                </p>
+              </td>
+              <td style="background-color: lightgreen"><p>0-2</p></td>
+            </tr>
+            <tr>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Position">Pos.</abbr></b></td>
+              <td colspan="7" style="text-align: center; background-color: #BBF3FF;"><b>Team name</b></td>
+            </tr>
+            <tr>
+              <td style="background-color: gold;"><b>1.</b></td>
+              <td colspan="7" style="text-align: center;">CFR-1907 CLUJ</td>
+            </tr>
+            <tr>
+              <td colspan="8" style="background-color: gold;">
+                <p><b>Winner : 2019-2020 CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Played">Pld.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Win">W.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Drawn">D.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Lost">L.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals for">GF.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals against">GA.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goal difference">GD.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Points">Pts.</abbr></b></td>
+            </tr>
+            <tr>
+              <td><b>26</b></td>
+              <td>15</td>
+              <td>7</td>
+              <td>4</td>
+              <td>51</td>
+              <td>16</td>
+              <td>+35</td>
+              <td><b>52</b></td>
+            </tr>
+          </table>
+
+          <h2>LIGA I. 2019-2020 PLAY-OFF</h2>
+          <button
+            id="LigaI1920PlayOffResultsButton"
+            onclick="showAndHideLigaI1920PlayOffRoundTable()"
+          >
+            <p id="buttonText">Show/Hide Play-Off results</p>
+          </button>
+          <table id="LigaI1920PlayOffTable" style="display: none">
+            <thead>
+              <tr>
+                <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Round">RND.</abbr></b></td>
+                <td colspan="7" style="text-align: center; background-color: #BBF3FF;"><b>Teams name</b></td>
+                <td style="background-color: #BBF3FF;"><b>Result</b></td>
+              </tr>
+            </thead>
+            <tr>
+              <td><p>1</p></td>
+              <td colspan="7">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />AFC ASTRA Giurgiu</p>
+              </td>
+              <td style="background-color: lightgreen"><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>6</p></td>
+              <td colspan="7">
+                <p>AFC ASTRA Giurgiu<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>2-2</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td colspan="7">
+                <p>CS GAZ METAN Mediaş<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>7</p></td>
+              <td colspan="7">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />CS GAZ METAN Mediaş</p>
+              </td>
+              <td style="background-color: lightgreen"><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>3</p></td>
+              <td colspan="7">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC FCSB Bucureşti</p>
+              </td>
+              <td style="background-color: lightgreen"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>8</p></td>
+              <td colspan="7">
+                <p>FC FCSB Bucureşti<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td style="background-color: lightgreen"><p>0-2</p></td>
+            </tr>
+            <tr>
+              <td><p>4</p></td>
+              <td colspan="7">
+                <p>FC Botoşani<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td style="background-color: lightgreen"><p>0-2</p></td>
+            </tr>
+            <tr>
+              <td><p>9</p></td>
+              <td colspan="7">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC Botoşani</p>
+              </td>
+              <td style="background-color: lightgreen"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>5</p></td>
+              <td colspan="7">
+                <p>
+                  CFR-1907 CLUJ-NAPOCA<br /><b>CS UNIVERSITATEA Craiova 1948</b>
+                </p>
+              </td>
+              <td style="background-color: pink"><p>2-3</p></td>
+            </tr>
+            <tr>
+              <td><p>10</p></td>
+              <td colspan="7">
+                <p>
+                  CS UNIVERSITATEA Craiova 1948<br /><b>CFR-1907 CLUJ-NAPOCA</b>
+                </p>
+              </td>
+              <td style="background-color: lightgreen"><p>1-3</p></td>
+            </tr>
+            <tr>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Position">Pos.</abbr></b></td>
+              <td colspan="8" style="text-align: center; background-color: #BBF3FF;"><b>Team name</b></td>
+            </tr>
+            <tr>
+              <td style="background-color: gold;"><b>1.</b></td>
+              <td colspan="8" style="text-align: center;">CFR-1907 CLUJ</td>
+            </tr>
+            <tr>
+              <td colspan="9" style="background-color: gold;">
+                <p><b>Winner : 2019-2020 CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+            </tr>
+              <tr>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Played">Pld.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Win">W.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Drawn">D.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Lost">L.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals for">GF.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals against">GA.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goal difference">GD.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Points">Pts.</abbr></b></td>
+              </tr>
+            <tr>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td><b>52 / 2 = 26</b></td>
+            </tr>
+            <tr>
+              <td><b>10</b></td>
+              <td>7</td>
+              <td>2</td>
+              <td>1</td>
+              <td>17</td>
+              <td>7</td>
+              <td>+10</td>
+              <td><b>26 + 23 = 49</b></td>
+            </tr>
+          </table>
+          <h3>Relegated from Liga I 2019-2020</h3>
+          <div id="RelegatedTeamsDropdown1920">
+            <button id="RelegatedDropdown1920Button" onclick="showAndHideRelegated1920LigaI()" style="background-color: #e26767;">Show/Hide teams</button>
+            <div id="RelegatedTeamsDropdown1920Elements" style="display: none; background-color: #e26767;">
+              <h4>none</h4>
+            </div>
+          </div>
+          <h3>Promoted to Liga I 2020-2021</h3>
+          <div id="PromotedTeamsDropdown2021">
+            <button id="PromotedDropdown2021Button" onclick="showAndHidePromoted2021LigaI()" style="background-color: #6ed46e;">Show/Hide teams</button>
+            <div id="PromotedTeamsDropdown2021Elements" style="display: none; background-color: #6ed46e;">
+              <h4>FC UTA Arad</h4>
+              <h4>ACS CAMPIONII FC ARGEŞ Piteşti</h4>
+            </div>
+          </div>
+        </div>
+        <div
+          class="CupTable1920"
+          id="cupaRomaniei1920results"
+          style="display: none"
+        >
+          <h2 id="cupaRomaniei1920Label">CUPA ROMÂNIEI 2019-2020</h2>
+          <button
+            id="CupaRomaniei1920ResultsButton"
+            onclick="showAndHideCupaRomaniei1920Table()"
+          >
+            <p id="buttonTextCupaRomaniei1920">Show/Hide Cupa României results</p>
+          </button>
+          <table id="CupaRomaniei1920Table" style="display: none">
+            <tr>
+              <td class="CR1920Rounds" colspan="4">
+                <p style="text-align: center; background-color: #BBF3FF;">ROUND OF 32</p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p><b>FC Botoşani</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>2-2<br>(a.e.t.)</p></td>
+              <td style="background-color: pink">
+                <p>Penalties<br />4-2</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div
+          class="SuperCupTable20"
+          id="supercupaRomaniei20results"
+          style="display: none"
+        >
+          <h2 id="supercupaRomaniei20Label">SUPERCUPA ROMÂNIEI 2020</h2>
+          <button
+            id="SupercupaRomaniei20ResultsButton"
+            onclick="showAndHideSupercupaRomaniei20Table()"
+          >
+            <p id="SupercupaRomaniei20buttonText">Show/Hide Supercupa României results</p>
+          </button>
+          <table id="SupercupaRomaniei20Table" style="display: none">
+            <tr>
+              <td class="SCR20Round" colspan="4">
+                <p style="text-align: center; background-color: #BBF3FF;"><b>FINAL</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC FCSB Bucureşti</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>0-0<br>(a.e.t.)</p></td>
+              <td style="background-color: lightgreen">
+                <p>Penalties<br />4-1</p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4" style="background-color: gold;">
+                <p><b>Winner : 2020 CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div
+          class="UefaChampLeagueTable1920"
+          id="uefaChampionsLeague1920results"
+          style="display: none"
+        >
+          <h2 id="uefaChampionsLeague1920Label">UEFA CHAMPIONS LEAGUE 2019-2020</h2>
+          <button
+            id="UefaChampionsLeague1920ResultsButton"
+            onclick="showAndHideUefaChL1920Table()"
+          >
+            <p id="UefaChampionsLeague1920buttonText">Show/Hide Uefa Champions League results</p>
+          </button>
+          <table id="UCHL1920Table" style="display: none">
+            <tr>
+              <td class="UCHL1920Rounds" colspan="3">
+                <p style="text-align: center; background-color: #BBF3FF;"><b>FIRST QUALIFYING ROUND</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p><b>FC ASTANA (KAZ)</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: pink"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC ASTANA (KAZ)</p>
+              </td>
+              <td style="background-color: lightgreen"><p>3-1</p></td>
+            </tr>
+            <tr>
+              <td colspan="3" style="background-color: lightgreen">
+                <p><b>CFR Cluj won 3-2 on aggregate.</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="UCHL1920Rounds" colspan="3">
+                <p style="text-align: center; background-color: #BBF3FF;"><b>SECOND QUALIFYING ROUND</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p>
+                  <b>CFR-1907 CLUJ-NAPOCA</b><br />MACCABI Tel Aviv FC (ISR)
+                </p>
+              </td>
+              <td style="background-color: lightgreen"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td>
+                <p>MACCABI Tel Aviv FC (ISR)<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>2-2</p></td>
+            </tr>
+            <tr>
+              <td colspan="3" style="background-color: lightgreen">
+                <p><b>CFR Cluj won 3-2 on aggregate.</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="UCHL1920Rounds" colspan="3">
+                <p style="text-align: center; background-color: #BBF3FF;"><b>THIRD QUALIFYING ROUND</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p>CFR-1907 CLUJ-NAPOCA<br />CELTIC Glasgow FC (SCO)</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td>
+                <p>CELTIC Glasgow FC (SCO)<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td style="background-color: lightgreen"><p>3-4</p></td>
+            </tr>
+            <tr>
+              <td colspan="3" style="background-color: lightgreen">
+                <p><b>CFR Cluj won 5-4 on aggregate.</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="UCHL1920Rounds" colspan="3">
+                <p style="text-align: center; background-color: #BBF3FF;"><b>PLAY-OFF ROUND</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p>CFR-1907 CLUJ-NAPOCA<br /><b>SK SLAVIA Praha (CZE)</b></p>
+              </td>
+              <td style="background-color: pink"><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td>
+                <p><b>SK SLAVIA Praha (CZE)</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: pink"><p>1-0</p></td>
+            </tr>
+            <td colspan="3" style="background-color: pink">
+              <p><b>Slavia Praha won 2-0 on aggregate.</b></p>
+            </td>
+          </table>
+        </div>
+        <div
+          class="UefaEuropaLeagueTable1920"
+          id="uefaEuropaLeague1920results"
+          style="display: none"
+        >
+          <h2>UEFA EUROPA LEAGUE 2019-2020</h2>
+          <button
+            id="UefaEuropaLeague1920ResultsButton"
+            onclick="showAndHideUefaEuropaLeague1920Table()"
+          >
+            <p id="buttonText">Show/Hide Uefa Europa League results</p>
+          </button>
+          <table id="UefaEuropaLeagueTable1920" style="display: none">
+            <tr>
+              <td class="UEL1920Rounds" colspan="10">
+                <p style="text-align: center; background-color: #BBF3FF;"><b>GROUP E</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />S. S. LAZIO Roma (ITA)</p>
+              </td>
+              <td style="background-color: lightgreen"><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td colspan="6">
+                <p><b>CELTIC Glasgow FC (SCO)</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: pink"><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>3</p></td>
+              <td colspan="6">
+                <p>STADE Rennais FC (FRA)<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td style="background-color: lightgreen"><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td><p>4</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />STADE Rennais FC (FRA)</p>
+              </td>
+              <td style="background-color: lightgreen"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>5</p></td>
+              <td colspan="6">
+                <p><b>S. S. LAZIO Roma (ITA)</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: pink"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>6</p></td>
+              <td colspan="6">
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />CELTIC Glasgow FC (SCO)</p>
+              </td>
+              <td style="background-color: lightgreen"><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Position">Pos.</abbr></b></td>
+              <td colspan="7" style="text-align: center; background-color: #BBF3FF;"><b>Team name</b></td>
+            </tr>
+            <tr>
+              <td><b>2.</b></td>
+              <td colspan="7" style="text-align: center;">CFR-1907 CLUJ</td>
+            </tr>
+            <tr>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Played">Pld.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Win">W.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Drawn">D.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Lost">L.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals for">GF.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals against">GA.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goal difference">GD.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Points">Pts.</abbr></b></td>
+            </tr>
+            <tr>
+              <td><b>6</b></td>
+              <td>4</td>
+              <td>0</td>
+              <td>2</td>
+              <td>6</td>
+              <td>4</td>
+              <td>+2</td>
+              <td><b>12</b></td>
+            </tr>
+            <tr>
+              <th class="UEL1920Rounds" colspan="10">
+                <p style="text-align: center ; background-color: #BBF3FF;"><b>ROUND OF 32</b></p>
+              </th>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td colspan="6">
+                <p>CFR-1907 CLUJ-NAPOCA<br />FC Sevilla (ESP)</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td colspan="6">
+                <p>FC Sevilla (ESP)<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td colspan="10" style="background-color: pink">
+                <p><b>1-1 on aggregate. Sevilla won on away goals.</b></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="CFRappJAVASCRIPTfiles/results2019-2020Events.js"></script>
+  </body>
+</html>

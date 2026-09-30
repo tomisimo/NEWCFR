@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CFRappCSSfiles/MainPageCFRappDesign.css">
+    <link rel="stylesheet" href="./CFRappCSSfiles/HONOURSdialogCFRappDesign.css">
+    <title>cfr1907CLUJ Results APP</title>
+  </head>
+  <body>
+    <div class="mainPageDiv">
+      <!--TEAM NAME SEASONS-->
+      <header class="mainPageHeader">
+        <div class="PageTitleBanner">
+          <h1 class="teamNAME" style="text-align: center;">FC CFR 1907 Cluj Napoca seasons from 2004-2005</h1>
+        </div>
+      </header>
+      <button class="showHonoursBtn" onclick="showTheDialog()"><p class="showHonoursBtnText">Show ALL TIME HONOURS</p>
+      </button>
+      <div id="popup-main-container" style="display: none;">
+      <dialog id="dialog-content">
+        <h3 style="text-align: center;">DOMESTIC RESULTS</h3>
+        <h4 style="text-align: center;">Leagues</h4>
+        <ul id="liga1Results">
+            <li>Liga I
+                <ul><li><b>Winners (8):</b><p>2007-2008, 2009-2010, 2011-2012, 2017-2018, 2018-2019, 2019-2020, 2020-2021, 2021-2022, </p></li>
+                <li><b>Runners-up (2):</b><p>2023-2024, 2024-2025</p></li>
+                <li><b>Third place (4):</b><p>2006-2007, 2014-2015, 2022-2023, 2025-2026</p></li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <ul id="liga2Results">
+            <li>Divizia B / Liga II
+                <ul><li><b>Winners (2):</b><p>1968-1969, 2003-2004, </p></li>
+                    <li><b>Runners-up (1):</b><p>1977-1978, </p></li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <ul id="liga3Results">
+            <li>Divizia C / Liga III
+                <ul><li><b>Winners (7):</b><p>1946-1947, 1982-1983, 1985-1986, 1988-1989, 1990-1991, 1995-1996, 2001-2002, </p></li>
+                </ul>
+                <ul><li><b>Runners-up (1):</b><p>1987-1988, </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <h4 style="text-align: center;">Cups</h4>
+        <ul id="cupaRomanieiAllTimeResults">
+            <li>Cupa României</li>
+            <ul>
+                <li>
+                    <b>Winners (5):</b><p>2007-2008, 2008-2009, 2009-2010, 2015-2016, 2024-2025 </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Runners-up (1):</b><p>2012-2013, </p>
+                </li>
+            </ul>
+        </ul>
+        <br>
+        <ul id="supercupaRomanieiAllTimeResults">
+            <li>Supercupa României</li>
+                <ul>
+                    <li>
+                        <b>Winners (4):</b><p>2009, 2010, 2018, 2020</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <b>Runners-up (6):</b><p>2012, 2016, 2019, 2021, 2022, 2025 </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <h3 style="text-align: center;">EUROPEAN RESULTS</h3>
+        <h4 style="text-align: center;">Cups</h4>
+        <ul id="uefaIntertotoCupResults">
+            <li>UEFA Intertoto Cup</li>
+            <ul>
+                <li>
+                    <b>Runners-up (1):</b><p>2005, </p>
+                </li>
+            </ul>
+        </ul>
+        <br>
+        <ul id="uefaCupResults">
+            <li>UEFA Cup</li>
+            <ul>
+                <li>
+                    <b>Second qualifying round:</b><p>2007-2008, </p>
+                </li>
+            </ul>
+        </ul>
+        <br>
+        <ul id="uefaConferenceLeagueResults">
+            <li>UEFA Europa Conference League / UEFA Conference League</li>
+            <ul>
+                <li>
+                    <b>Second qualifying round:</b><p>2023-2024, </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Third qualifying round:</b><p>2026-2027, </p>
+                </li>
+            </ul>
+            <ul>
+              <li>
+                  <b>Play-off round (2):</b><p>2024-2025, 2025-2026,</p>
+              </li>
+          </ul>
+            <ul>
+                <li>
+                    <b>Group stage:</b><p>2021-2022, </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Knockout round play-offs:</b><p>2022-2023, </p>
+                </li>
+            </ul>
+        </ul>
+        <br>
+        <ul id="uefaEuropaLeagueResults">
+            <li>UEFA Europa League</li>
+            <ul>
+                <li>
+                    <b>Third qualifying round (2):</b><p>2014-2015, 2025-2026 </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Play-off round (2):</b><p>2018-2019, 2021-2022, </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Group stage (2):</b><p>2009-2010, 2020-2021, </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Round of 32 (2):</b><p>2012-2013, 2019-2020,  </p>
+                </li>
+            </ul>
+        </ul>
+        <br>
+        <ul id="uefaCHampionsLeagueResults">
+            <li>UEFA Champions League</li>
+            <ul>
+                <li>
+                    <b>First qualifying round:</b><p>2022-2023, </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Second qualifying round (2):</b><p>2018-2019, 2020-2021, </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Third qualifying round:</b><p>2021-2022, </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Play-off round:</b><p>2019-2020, </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Group stage (3):</b><p>2008-2009, 2010-2011, 2012-2013, </p>
+                </li>
+            </ul>
+        </ul>
+        <br>
+        <button id="closeHonoursBtn" onclick="closeTheDialog()">Close ALL TIME HONOURS
+        </button>
+      </dialog>
+      </div>
+      
+      <section class="mainPageSection">
+        <!--FIRST SIX SEASONS CARDS-->
+        <div class="FirstSixSeasonCards">
+          <div class="season2004-2005">
+            <h2 id="seasontext0405">
+              <b>2004 - 2005<br />SEASON</b>
+              <button type="button" id="seasonbutton0405">
+                <a id="text0405">Click 04-05</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2005-2006">
+            <h2 id="seasontext0506">
+              <b>2005 - 2006<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton0506"
+                onclick="clickRedirect0506()"
+              >
+                <a id="text0506">Click 05-06</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2006-2007">
+            <h2 id="seasontext0607">
+              <b>2006 - 2007<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton0607"
+                onclick="clickRedirect0607()"
+              >
+                <a id="text0607">Click 06-07</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2007-2008">
+            <h2 id="seasontext0708">
+              <b>2007 - 2008<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton0708"
+                onclick="clickRedirect0708()"
+              >
+                <a id="text0708">Click 07-08</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2008-2009">
+            <h2 id="seasontext0809">
+              <b>2008 - 2009<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton0809"
+                onclick="clickRedirect0809()"
+              >
+                <a id="text0809">Click 08-09</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2009-2010">
+            <h2 id="seasontext0910">
+              <b>2009 - 2010<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton0910"
+                onclick="clickRedirect0910()"
+              >
+                <a id="text0910">Click 09-10</a>
+              </button>
+            </h2>
+          </div>
+        </div>
+
+        <!--SECOND SIX SEASON CARDS-->
+        <div class="SecondSixSeasonCards">
+          <div class="season2010-2011">
+            <h2 id="seasontext1011">
+              <b>2010 - 2011<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton1011"
+                onclick="clickRedirect1011()"
+              >
+                <a id="text1011">Click 10-11</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2011-2012">
+            <h2 id="seasontext1112">
+              <b>2011 - 2012<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton1112"
+                onclick="clickRedirect1112()"
+              >
+                <a id="text1112">Click 11-12</a>
+              </button>
+            </h2>
+          </div>
+          <div class="season2012-2013">
+            <h2 id="seasontext1213">
+              <b>2012 - 2013<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton1213"
+                onclick="clickRedirect1213()"
+              >
+                <a id="text1213">Click 12-13</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2013-2014">
+            <h2 id="seasontext1314">
+              <b>2013 - 2014<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton1314"
+                onclick="clickRedirect1314()"
+              >
+                <a id="text1314">Click 13-14</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2014-2015">
+            <h2 id="seasontext1415">
+              <b>2014 - 2015<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton1415"
+                onclick="clickRedirect1415()"
+              >
+                <a id="text1415">Click 14-15</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2015-2016">
+            <h2 id="seasontext1516">
+              <b>2015 - 2016<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton1516"
+                onclick="clickRedirect1516()"
+              >
+                <a id="text1516">Click 15-16</a>
+              </button>
+            </h2>
+          </div>
+        </div>
+
+        <!--THIRD SIX SEASON CARDS-->
+        <div class="ThirdSixSeasonCards">
+          <div class="season2016-2017">
+            <h2 id="seasontext1617">
+              <b>2016 - 2017<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton1617"
+                onclick="clickRedirect1617()"
+              >
+                <a id="text1617">Click 16-17</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2017-2018">
+            <h2 id="seasontext1718">
+              <b>2017 - 2018<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton1718"
+                onclick="clickRedirect1718()"
+              >
+                <a id="text1718">Click 17-18</a>
+              </button>
+            </h2>
+          </div>
+          <div class="season2018-2019">
+            <h2 id="seasontext1819">
+              <b>2018 - 2019<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton1819"
+                onclick="clickRedirect1819()"
+              >
+                <a id="text1819">Click 18-19</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2019-2020">
+            <h2 id="seasontext1920">
+              <b>2019 - 2020<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton1920"
+                onclick="clickRedirect1920()"
+              >
+                <a id="text1920">Click 19-20</a>
+              </button>
+            </h2>
+          </div>
+          <div class="season2020-2021">
+            <h2 id="seasontext2021">
+              <b>2020 - 2021<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton2021"
+                onclick="clickRedirect2021()"
+              >
+                <a id="text2021">Click 20-21</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2021-2022">
+            <h2 id="seasontext2122">
+              <b>2021 - 2022<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton2122"
+                onclick="clickRedirect2122()"
+              >
+                <a id="text2122">Click 21-22</a>
+              </button>
+            </h2>
+          </div>
+        </div>
+        <!--FOURTH SIX SEASON CARDS-->
+        <div class="FourthSixSeasonCards">
+          <div class="season2022-2023">
+            <h2 id="seasontext2223">
+              <b>2022 - 2023<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton2223"
+                onclick="clickRedirect2223()"
+              >
+                <a id="text2223">Click 22-23</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2023-2024">
+            <h2 id="seasontext2324">
+              <b>2023 - 2024<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton2324"
+                onclick="clickRedirect2324()"
+              >
+                <a id="text2324">Click 23-24</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2024-2025">
+            <h2 id="seasontext2425">
+              <b>2024 - 2025<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton2425"
+                onclick="clickRedirect2425()"
+              >
+                <a id="text2425">Click 24-25</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2025-2026">
+            <h2 id="seasontext2526">
+              <b>2025 - 2026<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton2526"
+                onclick="clickRedirect2526()"
+              >
+                <a id="text2526">Click 25-26</a>
+              </button>
+            </h2>
+          </div>
+
+          <div class="season2026-2027">
+            <h2 id="seasontext2627">
+              <b>2026 - 2027<br />SEASON</b>
+              <button
+                type="button"
+                id="seasonbutton2627"
+                onclick="clickRedirect2627()"
+              >
+                <a id="text2627">Click 26-27</a>
+              </button>
+            </h2>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="CFRappJAVASCRIPTfiles/MainPageCFRappEvents.js"></script>
+  </body>
+</html>

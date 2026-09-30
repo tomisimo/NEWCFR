@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CFRappCSSfiles/results2008-2009Design.css" />
+    <title>2008 - 2009 Season Results</title>
+  </head>
+  <body class="pageBackground0809">
+    <h2 id="chooseCompetition0809Message" style="text-align: center;">Choose the competition of season 2008-2009 !</h2>
+    <div id="seasonElements0809">
+      <div id="season0809buttons">
+        <button  
+        onclick="closeLigaI0809MainResults()" id="ligaI0809button">
+          <p id="ligaI0809text">Liga I. 2008-2009</p>
+        </button>
+        <button
+          onclick="closeCupaRomaniei0809Results()"
+          id="cupaRomaniei0809button"
+        >
+          <p id="cupaRomaniei0809text">CUPA României 2008-2009</p>
+        </button>
+        <button
+          onclick="closeSupercupaRomaniei09Results()"
+          id="supercupaRomaniei09button"
+        >
+          <p id="supercupaRomaniei09text">SUPERCUPA României 2009</p>
+        </button>
+        <button
+          onclick="closeUefaChampionsLeague0809Results()"
+          id="uefaChampionsLeague0809button"
+        >
+          <p id="uefaChampionsLeague0809text">
+            UEFA Champions League<br />2008-2009
+          </p>
+        </button>
+      </div>
+      <div id="competitionsTable0809">
+        <div
+          class="ChampionshipTable0809"
+          id="ligaIresults0809"
+          style="display: none"
+        >
+          <h2>LIGA I. 2008-2009</h2>
+          <button id="LigaI0809MainRoundResultsButton" onclick="showAndHideLigaI0809MainRoundResults()"><p id="buttonText">Show/Hide Main Round results</p></button>
+          <table id="LigaI0809MainRoundResultsTable" style="display: none;">
+            <thead>
+              <tr>
+                <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Round">RND.</abbr></b></td>
+                <td colspan="6" style="text-align: center; background-color: #BBF3FF;"><b>Teams name</b></td>
+                <td style="background-color: #BBF3FF;"><b>Result</b></td>
+              </tr>
+            </thead>
+            <tr>
+              <td><p>1</p></td>
+              <td colspan="6"><p>CS Otopeni<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+              <td style="background-color: lightgreen"><p>0-4</p></td>
+            </tr>
+            <tr>
+              <td><p>18</p></td>
+              <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>CS Otopeni</p></td>
+              <td style="background-color: lightgreen"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC GLORIA Buzǎu</p></td>
+              <td style="background-color: lightgreen"><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>19</p></td>
+              <td colspan="6"><p>FC GLORIA Buzǎu<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+              <td style="background-color: lightgreen"><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td><p>3</p></td>
+              <td colspan="6"><p><b>FC RAPID Bucureşti</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: pink"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>20</p></td>
+              <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>FC RAPID Bucureşti</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>4</p></td>
+              <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>FC UNIVERSITATEA Craiova</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>21</p></td>
+              <td colspan="6"><b>UNIVERSITATEA Craiova</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: pink"><p>4-1</p></td>
+            </tr>
+            <tr>
+              <td><p>5</p></td>
+              <td colspan="6"><p><b>FC Vaslui</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: pink"><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>22</p></td>
+              <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC Vaslui</p></td>
+              <td style="background-color: lightgreen"><p>3-0</p></td>
+            </tr>
+            <tr>
+              <td><p>6</p></td>
+              <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>FC POLITEHNICA Iaşi</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>23</p></td>
+              <td colspan="6"><p>FC POLITEHNICA Iaşi<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+              <td style="background-color: lightgreen"><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td><p>7</p></td>
+              <td colspan="6"><p>ACF GLORIA 1922 Bistriţa<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+              <td style="background-color: lightgreen"><p>1-2</p></td>
+            </tr>
+            <tr>
+              <td><p>24</p></td>
+              <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>ACF GLORIA 1922 Bistriţa</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>2-2</p></td>
+            </tr>
+            <tr>
+              <td><p>8</p></td>
+              <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC FARUL Constanţa</p></td>
+              <td style="background-color: lightgreen"><p>3-0</p></td>
+            </tr>
+            <tr>
+              <td><p>25</p></td>
+              <td colspan="6"><p>FC FARUL Constanţa<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+              <td style="background-color: lightgreen"><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td><p>9</p></td>
+              <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>FC STEAUA Bucureşti</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>26</p></td>
+              <td colspan="6"><p>FC STEAUA Bucureşti<br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>10</p></td>
+              <td colspan="6"><p>FC OŢELUL Galaţi<br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>27</p></td>
+              <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>FC OŢELUL Galaţi</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>11</p></td>
+              <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC DINAMO 1948 Bucureşti</p></td>
+              <td style="background-color: lightgreen"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>28</p></td>
+              <td colspan="6"><p><b>FC DINAMO 1948 Bucureşti</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: pink"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>12</p></td>
+              <td colspan="6"><p><b>FC Timişoara</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: pink"><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>29</p></td>
+              <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC Timişoara</p></td>
+              <td style="background-color: lightgreen"><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>13</p></td>
+              <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC UNIREA Urziceni</p></td>
+              <td style="background-color: lightgreen"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>30</p></td>
+              <td colspan="6"><p>FC UNIREA Urziceni<br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>14</p></td>
+              <td colspan="6"><p>FC Braşov<br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>31</p></td>
+              <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC Braşov</p></td>
+              <td style="background-color: lightgreen"><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>15</p></td>
+              <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC ARGEŞ Piteşti</p></td>
+              <td style="background-color: lightgreen"><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>32</p></td>
+              <td colspan="6"><p>FC ARGEŞ Piteşti<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+              <td style="background-color: lightgreen"><p>0-2</p></td>
+            </tr>
+            <tr>
+              <td><p>16</p></td>
+              <td colspan="6"><p><b>CS PANDURII LIGNITUL Târgu Jiu</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: pink"><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>33</p></td>
+              <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>CS PANDURII LIGNITUL Târgu Jiu</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>17</p></td>
+              <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>CS GAZ METAN Mediaş</p></td>
+              <td style="background-color: lightgreen"><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>34</p></td>
+              <td colspan="6"><p><b>CS GAZ METAN Mediaş</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: pink"><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Position">Pos.</abbr></b></td>
+              <td colspan="9" style="text-align: center; background-color: #BBF3FF;"><b>Team name</b></td>
+            </tr>
+            <tr>
+              <td><b>4.</b></td>
+              <td colspan="9" style="text-align: center;">CFR-1907 CLUJ</td>
+            </tr>
+            <tr>
+              <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Played">Pld.</abbr></b></td>
+              <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Win">W.</abbr></b></td>
+              <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Drawn">D.</abbr></b></td>
+              <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Lost">L.</abbr></b></td>
+              <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Goals for">GF.</abbr></b></td>
+              <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Goals against">GA.</abbr></b></td>
+              <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Goal difference">GD.</abbr></b></td>
+              <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Points">Pts.</abbr></b></td>
+            </tr>
+            <tr>
+              <td><b>34</b></td>
+              <td>16</td>
+              <td>11</td>
+              <td>7</td>
+              <td>44</td>
+              <td>26</td>
+              <td>+18</td>
+              <td><b>59</b></td>
+            </tr>
+          </table>
+
+          <h3>Relegated from Liga I 2008-2009</h3>
+          <div id="RelegatedTeamsDropdown0809">
+            <button id="RelegatedDropdown0809Button" onclick="showAndHideRelegated0809LigaI()" style="background-color: #e26767;">Show/Hide teams</button>
+            <div id="RelegatedTeamsDropdown0809Elements" style="display: none; background-color: #e26767;">
+              <h4>FC GLORIA Buzǎu</h4>
+              <h4>CS Otopeni</h4>
+              <h4>FC FARUL Constanţa</h4>
+              <h4>FC ARGEŞ Piteşti</h4>
+            </div>
+          </div>
+          <h3>Promoted to Liga I 2009-2010</h3>
+          <div id="PromotedTeamsDropdown0910">
+            <button id="PromotedDropdown0910Button" onclick="showAndhidePromoted0910LigaI()" style="background-color: #6ed46e;">Show/Hide teams</button>
+            <div id="PromotedTeamsDropdown0910Elements" style="display: none; background-color: #6ed46e;">
+              <h4>FC CEAHLĂUL Piatra Neamţ</h4>
+              <h4>FC UNIREA Alba Iulia</h4>
+              <h4>FC ASTRA Ploieşti</h4>
+              <h4>FC INTERNAŢIONAL Curtea de Argeş</h4>
+            </div>
+          </div>
+        </div>
+        <div
+          class="CupTable0809"
+          id="cupaRomanieiResults0809"
+          style="display: none"
+        >
+          <h2 id="cupaRomaniei0809Label">CUPA ROMÂNIEI 2008-2009</h2>
+          <button id="CupaRomaniei0809ResultsButton" onclick="showAndHideCupaRomaniei0809Results()"><p id="buttonTextCupaRomaniei0809">Show/Hide Cupa României results</p></button>
+          <table id="CupaRomaniei0809ResultsTable" style="display: none;">
+            <tr>
+            <td colspan="4" style="text-align: center; background-color: #BBF3FF;"><p><b>ROUND OF 32</b></p></td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td><p>CFM UNIVERSITATEA Cluj ( LIGA II. )<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>3-3<br>(a.e.t.)</p></td>
+              <td style="background-color: lightgreen"><p>Penalties<br>10-11</p></td>
+            </tr>
+            <tr>
+            <td colspan="4" style="text-align: center; background-color: #BBF3FF;"><p><b>ROUND OF 16</b></p></td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td colspan="2"><p>FC SPORTUL STUDENŢESC Bucureşti (LIGA II.) <br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+              <td style="background-color: lightgreen"><p>0-1</p></td>
+            </tr>
+            <tr>
+            <td colspan="4" style="text-align: center; background-color: #BBF3FF;"><p><b>QUARTER-FINALS</b></p></td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td colspan="2"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>CS PANDURII LIGNITUL Târgu Jiu</p></td>
+              <td style="background-color: lightgreen"><p>1-0</p></td>
+            </tr>
+            <tr>
+            <td colspan="4" style="text-align: center; background-color: #BBF3FF;"><p><b>SEMI-FINALS</b></p></td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td colspan="2"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC Vaslui</p></td>
+              <td style="background-color: lightgreen"><p>2-0</p></td>
+            </tr>
+            <tr>
+            <td colspan="4" style="text-align: center; background-color: #BBF3FF;"><p><b>FINAL</b></p></td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td colspan="2"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC Timişoara</p></td>
+              <td style="background-color: lightgreen"><p>3-0</p></td>
+            </tr>
+            <tr>
+              <td colspan="4" style="background-color: gold;">
+                <p><b>Winner : 2008-2009 CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div
+          class="SuperCupTable09"
+          id="supercup2009results"
+          style="display: none"
+        >
+          <h2 id="supercupaRomaniei09Label">SUPERCUPA ROMÂNIEI 2009</h2>
+          <button id="SupercupaRomaniei09ResultsButton" onclick="showAndHideSupercupaRomaniei09Results()"><p id="supercupaRomaniei09buttonText">Show/Hide Supercupa României results</p></button>
+          <table id="SupercupaRomaniei09ResultsTable" style="display: none;">
+            <tr>
+            <td colspan="4" style="text-align: center; background-color: #BBF3FF;"><p><b>FINAL</b></p></td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC UNIREA Urziceni</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>1-1<br>(a.e.t.)</p></td>
+              <td style="background-color: lightgreen"><p>Penalties<br>3-2</p></td>
+            </tr>
+            <tr>
+              <td colspan="4" style="background-color: gold;">
+                <p><b>Winner : 2009 CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div
+          class="UefaChampLeagueTable0809"
+          id="uefaChampionsLeague0809results"
+          style="display: none"
+        >
+          <h2 id="uefaChampionsLeague0809Label">UEFA CHAMPIONS LEAGUE 2008-2009</h2>
+          <button id="UefaChampionsLeague0809ResultsButton" onclick="showAndHideUefaChampionsLeague0809Results()"><p id="uefaChampionsLeague0809buttonText">Show/Hide Uefa Champions League results</p></button>
+          <table id="UefaChampionsLeague0809ResultsTable" style="display: none;">
+            <tr>
+            <td colspan="10" style="text-align: center; background-color: #BBF3FF;"><p><b>GROUP A</b></p></td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td colspan="6"><p>AS Roma (ITA)<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+              <td style="background-color: lightgreen"><p>1-2</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>CHELSEA FC (ENG)</p></td>
+              <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>3</p></td>
+              <td colspan="6"><p><b>FC GIRONDINS de Bordeaux (FRA)</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: pink"><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>4</p></td>
+              <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br><b>FC GIRONDINS de Bordeaux (FRA)</b></p></td>
+              <td style="background-color: pink"><p>1-2</p></td>
+            </tr>
+            <tr>
+              <td><p>5</p></td>
+              <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br><b>AS Roma (ITA)</b></p></td>
+              <td style="background-color: pink"><p>1-3</p></td>
+            </tr>
+            <tr>
+              <td><p>6</p></td>
+              <td colspan="6"><p><b>CHELSEA FC (ENG)</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+              <td style="background-color: pink"><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Position">Pos.</abbr></b></td>
+              <td colspan="7" style="text-align: center; background-color: #BBF3FF;"><b>Team name</b></td>
+            </tr>
+            <tr>
+              <td><b>4.</b></td>
+              <td colspan="7" style="text-align: center;">CFR-1907 CLUJ</td>
+            </tr>
+            <tr>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Played">Pld.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Win">W.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Drawn">D.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Lost">L.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals for">GF.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals against">GA.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goal difference">GD.</abbr></b></td>
+              <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Points">Pts.</abbr></b></td>
+            </tr>
+            <tr>
+              <td><b>6</b></td>
+              <td>1</td>
+              <td>1</td>
+              <td>4</td>
+              <td>5</td>
+              <td>9</td>
+              <td>-4</td>
+              <td><b>4</b></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="CFRappJAVASCRIPTfiles/results2008-2009Events.js"></script>
+  </body>
+</html>

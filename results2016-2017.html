@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CFRappCSSfiles/results2016-2017Design.css">
+    <title>2016 - 2017 Season Results</title>
+</head>
+<body class="pageBackground1617">
+    <h2 id="chooseCompetition1617Message" style="text-align: center;">Choose the competition of season 2016-2017 !</h2>
+    <div id="seasonElements1617">
+    <div id="season1617buttons">
+        <button  
+        onclick="closeLigaI1617MainAndPlayOffResults()" id="ligaI1617button">
+            <p id="ligaI1617text">Liga I. 2016-2017</p>
+        </button>
+        <button 
+        onclick="closeCupaRomaniei1617Results()" id="cupaRomaniei1617button">
+            <p id="cupaRomaniei1617text">CUPA României 2016-2017</p>
+        </button>
+        <button 
+        onclick="closeCupaLigiiRomaniei1617Results()" id="cupaLigiiRomaniei1617button">
+            <p id="cupaLigiiRomaniei1617text">CUPA LIGII României<br>2016-2017</p>
+        </button>
+    </div>
+    <div id="competitionsTable1617">
+    <div class="ChampionshipTable1617" id="ligaIresults1617" style="display: none;">
+        <h2>LIGA  I.  2016-2017</h2>
+        <button id="LigaI1617MainRoundResultsButton" onclick="showAndHideLigaI1617MainRound()"><p id="buttonText">Show/Hide Main Round results</p></button>
+        <table id="LigaI1617MainRoundTable" style="display: none">
+            <thead>
+                <tr>
+                  <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Round">RND.</abbr></b></td>
+                  <td colspan="6" style="text-align: center; background-color: #BBF3FF;"><b>Teams name</b></td>
+                  <td style="background-color: #BBF3FF;"><b>Result</b></td>
+                </tr>
+              </thead>
+        <tr>
+            <td><p>1</p></td>
+            <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>CS CONCORDIA Chiajna</p></td>
+            <td style="background-color: lightgreen"><p>2-0</p></td>
+        </tr>
+        <tr>
+            <td><p>14</p></td>
+            <td colspan="6"><p>CS CONCORDIA Chiajna<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+            <td style="background-color: lightgreen"><p>1-2</p></td>
+        </tr>
+        <tr>
+            <td><p>2</p></td>
+            <td colspan="6"><p><b>FC Botoşani</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+            <td style="background-color: pink"><p>3-1</p></td>
+        </tr>
+        <tr>
+            <td><p>15</p></td>
+            <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC Botoşani</p></td>
+            <td style="background-color: lightgreen"><p>1-0</p></td>
+        </tr>
+        <tr>
+            <td><p>3</p></td>
+            <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>FC DINAMO 1948 Bucureşti</p></td>
+            <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+        </tr>
+        <tr>
+            <td><p>16</p></td>
+            <td colspan="6"><p>FC DINAMO 1948 Bucureşti<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+            <td style="background-color: lightgreen"><p>0-2</p></td>
+        </tr>
+        <tr>
+            <td><p>4</p></td>
+            <td colspan="6"><p>CS PANDURII LIGNITUL Târgu Jiu<br>CFR-1907 CLUJ-NAPOCA</p></td>
+            <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+        </tr>
+        <tr>
+            <td><p>17</p></td>
+            <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br><b>CS PANDURII LIGNITUL Târgu Jiu</b></p></td>
+            <td style="background-color: pink"><p>0-1</p></td>
+        </tr>
+        <tr>
+            <td><p>5</p></td>
+            <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>AFC ASTRA Giurgiu</p></td>
+            <td style="background-color: lightgreen"><p>5-1</p></td>
+        </tr>
+        <tr>
+            <td><p>18</p></td>
+            <td colspan="6"><p>AFC ASTRA Giurgiu<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+            <td style="background-color: lightgreen"><p>1-2</p></td>
+        </tr>
+        <tr>
+            <td><p>6</p></td>
+            <td colspan="6"><p>ACS POLI Timişoara<br>CFR-1907 CLUJ-NAPOCA</p></td>
+            <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+        </tr>
+        <tr>
+            <td><p>19</p></td>
+            <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>ACS POLI Timişoara</p></td>
+            <td style="background-color: rgb(238, 238, 81);"><p>2-2</p></td>
+        </tr>
+        <tr>
+            <td><p>7</p></td>
+            <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>CS UNIVERSITATEA Craiova 1948</p></td>
+            <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+        </tr>
+        <tr>
+            <td><p>20</p></td>
+            <td colspan="6"><p><b>CS UNIVERSITATEA Craiova 1948</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+            <td style="background-color: pink"><p>2-1</p></td>
+        </tr>
+        <tr>
+            <td><p>8</p></td>
+            <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC Voluntari</p></td>
+            <td style="background-color: lightgreen"><p>5-0</p></td>
+        </tr>
+        <tr>
+            <td><p>21</p></td>
+            <td colspan="6"><p><b>FC Voluntari</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+            <td style="background-color: pink"><p>2-1</p></td>
+        </tr>
+        <tr>
+            <td><p>9</p></td>
+            <td colspan="6"><p>FC STEAUA Bucureşti<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+            <td style="background-color: lightgreen"><p>1-2</p></td>
+        </tr>
+        <tr>
+            <td><p>22</p></td>
+            <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>FC STEAUA Bucureşti</p></td>
+            <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+        </tr>
+        <tr>
+            <td><p>10</p></td>
+            <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br>CS GAZ METAN Mediaş</p></td>
+            <td style="background-color: rgb(238, 238, 81);"><p>1-1</p></td>
+        </tr>
+        <tr>
+            <td><p>23</p></td>
+            <td colspan="6"><p>CS GAZ METAN Mediaş<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+            <td style="background-color: lightgreen"><p>1-2</p></td>
+        </tr>
+        <tr>
+            <td><p>11</p></td>
+            <td colspan="6"><p>ASA Târgu Mureş<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+            <td style="background-color: lightgreen"><p>1-3</p></td>
+        </tr>
+        <tr>
+            <td><p>24</p></td>
+            <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>ASA Târgu Mureş</p></td>
+            <td style="background-color: lightgreen"><p>2-0</p></td>
+        </tr>
+        <tr>
+            <td><p>12</p></td>
+            <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>CS MUNICIPAL POLITEHNICA Iaşi</p></td>
+            <td style="background-color: lightgreen"><p>1-0</p></td>
+        </tr>
+        <tr>
+            <td><p>25</p></td>
+            <td colspan="6"><p>CFR-1907 CLUJ-NAPOCA<br><b>CS MUNICIPAL POLITEHNICA Iaşi</b></p></td>
+            <td style="background-color: pink"><p>1-2</p></td>
+        </tr>
+        <tr>
+            <td><p>13</p></td>
+            <td colspan="6"><p><b>FC VIITORUL Constanţa</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+            <td style="background-color: pink"><p>2-1</p></td>
+        </tr>
+        <tr>
+            <td><p>26</p></td>
+            <td colspan="6"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>FC VIITORUL Constanţa</p></td>
+            <td style="background-color: lightgreen"><p>1-0</p></td>
+        </tr>
+        <tr>
+            <td colspan="10" style="text-align: center; background-color: #BBF3FF;"><b>Team name</b></td>
+        </tr>
+        <tr>
+            <td colspan="10" style="text-align: center;">CFR-1907 CLUJ</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Played">Pld.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Win">W.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Drawn">D.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Lost">L.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals for">GF.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals against">GA.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goal difference">GD.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Points">Pts.</abbr></b></td>
+          </tr>
+          <tr>
+            <td><b>26</b></td>
+            <td>14</td>
+            <td>7</td>
+            <td>5</td>
+            <td>42</td>
+            <td>23</td>
+            <td>+19</td>
+            <td><b>49</b></td>
+          </tr>
+          <tr>
+            <td colspan="10"><p><b>CFR-1907 CLUJ-NAPOCA : -6 points</b></p></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Position">Pos.</abbr></b></td>
+            <td colspan="9" style="text-align: center; background-color: #BBF3FF;"><b>Team name</b></td>
+          </tr>
+          <tr>
+            <td><b>5.</b></td>
+            <td colspan="9" style="text-align: center;">CFR-1907 CLUJ</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Played">Pld.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Win">W.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Drawn">D.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Lost">L.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals for">GF.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals against">GA.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goal difference">GD.</abbr></b></td>
+            <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Points">Pts.</abbr></b></td>
+          </tr>
+          <tr>
+            <td><b>26</b></td>
+            <td>14</td>
+            <td>7</td>
+            <td>5</td>
+            <td>42</td>
+            <td>23</td>
+            <td>+19</td>
+            <td><b>43</b></td>
+          </tr>
+        </table>
+    
+        <h2>LIGA  I.  2016-2017 PLAY-OFF</h2>
+        <button id="LigaI1617PlayOffResultsButton" onclick="showAndHideLigaI1617PlayOff()"><p id="buttonText">Show/Hide Paly-Off results</p></button>
+        <table id="LigaI1617PlayOffTable" style="display: none">
+            <thead>
+                <tr>
+                  <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Round">RND.</abbr></b></td>
+                  <td colspan="7" style="text-align: center; background-color: #BBF3FF;"><b>Teams name</b></td>
+                  <td style="background-color: #BBF3FF;"><b>Result</b></td>
+                </tr>
+              </thead>
+            <tr>
+                <td><p>1</p></td>
+                <td colspan="7"><p><b>FC STEAUA Bucureşti</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+                <td style="background-color: pink"><p>2-0</p></td>
+            </tr>
+            <tr>
+                <td><p>6</p></td>
+                <td colspan="7"><p>CFR-1907 CLUJ-NAPOCA<br>FC STEAUA Bucureşti</p></td>
+                <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+            </tr>
+            <tr>
+                <td><p>2</p></td>
+                <td colspan="7"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>AFC ASTRA Giurgiu</p></td>
+                <td style="background-color: lightgreen"><p>3-2</p></td>
+            </tr>
+            <tr>
+                <td><p>7</p></td>
+                <td colspan="7"><p>AFC ASTRA Giurgiu<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+                <td style="background-color: lightgreen"><p>0-1</p></td>
+            </tr>
+            <tr>
+                <td><p>3</p></td>
+                <td colspan="7"><p>CS UNIVERSITATEA Craiova 1948<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+                <td style="background-color: lightgreen"><p>1-4</p></td>
+            </tr>
+            <tr>
+                <td><p>8</p></td>
+                <td colspan="7"><p>CFR-1907 CLUJ-NAPOCA<br><b>CS UNIVERSITATEA Craiova 1948</b></p></td>
+                <td style="background-color: pink"><p>0-3</p></td>
+            </tr>
+            <tr>
+                <td><p>4</p></td>
+                <td colspan="7"><p><b>FC DINAMO 1948 Bucureşti</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+                <td style="background-color: pink"><p>2-0</p></td>
+            </tr>
+            <tr>
+                <td><p>9</p></td>
+                <td colspan="7"><p>CFR-1907 CLUJ-NAPOCA<br><b>FC DINAMO 1948 Bucureşti</b></p></td>
+                <td style="background-color: pink"><p>0-3</p></td>
+            </tr>
+            <tr>
+                <td><p>5</p></td>
+                <td colspan="7"><p>CFR-1907 CLUJ-NAPOCA<br>FC  VIITORUL  Constanţa</p></td>
+                <td style="background-color: rgb(238, 238, 81);"><p>0-0</p></td>
+            </tr>
+            <tr>
+                <td><p>10</p></td>
+                <td colspan="7"><p><b>FC  VIITORUL  Constanţa</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+                <td style="background-color: pink"><p>1-0</p></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Position">Pos.</abbr></b></td>
+                <td colspan="8" style="text-align: center; background-color: #BBF3FF;"><b>Team name</b></td>
+            </tr>
+            <tr>
+                <td><b>4.</b></td>
+                <td colspan="8" style="text-align: center;">CFR-1907 CLUJ</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Played">Pld.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Win">W.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Drawn">D.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Lost">L.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals for">GF.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals against">GA.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goal difference">GD.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Points">Pts.</abbr></b></td>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td><b>43 / 2 = 22</b></td>
+              </tr>
+              <tr>
+                <td><b>10</b></td>
+                <td>3</td>
+                <td>2</td>
+                <td>5</td>
+                <td>8</td>
+                <td>14</td>
+                <td>-6</td>
+                <td><b>22 + 11 = 33</b></td>
+              </tr>
+        </table>
+    
+        <h3>Relegated from Liga I 2016-2017</h3>
+        <div id="RelegatedTeamsDropdown1617">
+            <button id="RelegatedDropdown1617Button" onclick="showAndHideRelegated1617LigaI()" style="background-color: #e26767;">Show/Hide teams</button>
+            <div id="RelegatedTeamsDropdown1617Elements" style="display: none; background-color: #e26767;">
+              <h4>ASA Târgu Mureş</h4>
+              <h4>CS PANDURII LIGNITUL Târgu Jiu</h4>
+            </div>
+          </div>
+        <h3>Promoted to Liga I 2017-2018</h3>
+        <div id="PromotedTeamsDropdown1718">
+            <button id="PromotedDropdown1718Button" onclick="showAndHidePromoted1718LigaI()" style="background-color: #6ed46e;">Show/Hide teams</button>
+            <div id="PromotedTeamsDropdown1718Elements" style="display: none; background-color: #6ed46e;">
+              <h4>CS JUVENTUS Bucureşti</h4>
+              <h4>ACS SEPSI OSK Sfântu Gheorghe</h4>
+            </div>
+          </div>
+    </div>
+    <div class="CupTable1617" id="cupaRomaniei1617results" style="display: none;">
+        <h2 id="cupaRomaniei1617Label">CUPA  ROMÂNIEI  2016-2017</h2>
+        <button id="cupaRomaniei1617ResultsButton" onclick="showAndHideCupaRomaniei1617Table()"><p id="buttonTextCupaRomaniei1617">Show/Hide Cupa României results</p></button>
+        <table id="cupaRomaniei1617Table" style="display: none;">
+            <tr>
+        <td colspan="4"><p style="text-align: center; background-color: #BBF3FF;"><b>ROUND OF 32</b></p></td>
+            </tr>
+            <tr>
+                <td><p>1</p></td>
+        <td colspan="2"><p>CSM Râmnicu Vâlcea  ( LIGA  II. )<br><b>CFR-1907 CLUJ-NAPOCA</b></p></td>
+        <td style="background-color: lightgreen"><p>0-1</p></td>
+            </tr>
+            <tr>
+        <td colspan="4"><p style="text-align: center; background-color: #BBF3FF;"><b>ROUND OF 16</b></p></td>
+            </tr>
+            <tr>
+                <td><p>1</p></td>
+        <td colspan="2"><p><b>CFR-1907 CLUJ-NAPOCA</b><br>CS MUNICIPAL POLITEHNICA Iaşi</p></td>
+        <td style="background-color: lightgreen"><p>2-0</p></td>
+            </tr>
+            <tr>
+        <td colspan="4"><p style="text-align: center; background-color: #BBF3FF;"><b>QUARTER-FINALS</b></p></td>
+            </tr>
+            <tr>
+                <td><p>1</p></td>
+        <td><p><b>ACS POLI Timişoara</b><br>CFR-1907 CLUJ-NAPOCA</p></td>
+        <td style="background-color: rgb(238, 238, 81);"><p>0-0<br>(a.e.t.)</p></td>
+        <td style="background-color: pink"><p>Penalties<br>6-5</p></td>
+            </tr>
+        </table>
+    </div>
+    <div class="LeagueCupTable1617" id="cupaLigiiRomaniei1617results" style="display: none;">
+        <h2 id="cupaLigiiRomaniei1617Label">CUPA  LIGII  ROMÂNIEI  2016-2017</h2>
+        <button id="cupaLigiiRomaniei1617ResultsButton" onclick="showAndHideCupaLigiiRomaniei1617Table()"><p id="CupaLigiiRomaniei1617buttonText">Show/Hide Cupa Ligii României results</p></button>
+        <table id="cupaLigiiRomaniei1617Table" style="display: none;">
+            <tr>
+        <td colspan="4"><p style="text-align: center; background-color: #BBF3FF;"><b>ROUND OF 16</b></p></td>
+            </tr>
+            <tr>
+                <td><p>1</p></td>
+        <td><p><b>CFR-1907 CLUJ-NAPOCA</b><br>CS UNIVERSITATEA Craiova 1948</p></td>
+        <td style="background-color: rgb(238, 238, 81);"><p>0-0<br>(a.e.t.)</p></td>
+        <td style="background-color: lightgreen"><p>Penalties<br>3-2</p></td>
+            </tr>
+            <tr>
+        <td colspan="4"><p style="text-align: center; background-color: #BBF3FF;"><b>QUARTER-FINALS</b></p></td>
+            </tr>
+            <tr>
+                <td><p>1</p></td>
+        <td><p>CFR-1907 CLUJ-NAPOCA<br><b>ASA Târgu Mureş</b></p></td>
+        <td style="background-color: rgb(238, 238, 81);"><p>1-1<br>(a.e.t.)</p></td>
+        <td style="background-color: pink"><p>Penalties<br>4-5</p></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    </div>
+
+    <script src="CFRappJAVASCRIPTfiles/results2016-2017Events.js"></script>
+</body>
+</html>
