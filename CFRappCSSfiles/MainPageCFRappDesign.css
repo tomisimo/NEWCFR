@@ -1,0 +1,1091 @@
+
+*{
+    margin: 0;
+    padding: 0;}
+body{
+    background-image: linear-gradient(to right, rgb(177, 44, 44) , rgb(141, 121, 125));
+}
+/*TEAM NAME*/
+.teamNAME {
+    color: aliceblue;
+}
+.PageTitleBanner{
+    height: 1cm;
+    width: 100%;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    background-color: #910030;
+}
+.FirstFooterBanner{
+    margin-top: 5mm;
+    height: 4mm;
+    width: 100%;
+    background-color: #910030;
+}
+.SecondFooterBanner{
+    height: 4mm;
+    width: 100%;
+    background-color: aliceblue;
+}
+.ThirdFooterBanner{
+    height: 4mm;
+    width: 100%;
+    background-color: #910030;
+}
+
+.FirstSixSeasonCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.SecondSixSeasonCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1cm;
+    
+}
+.ThirdSixSeasonCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1cm;
+}
+.FourthSixSeasonCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1cm;
+}
+
+.season2004-2005 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2004-2005:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2005-2006 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2005-2006:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2006-2007 {
+    background-color: #910030; 
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2006-2007:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2007-2008 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2007-2008:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2008-2009 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2008-2009:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2009-2010 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-top: 19px;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2009-2010:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2010-2011 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-top: 19px;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2010-2011:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2011-2012 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2011-2012:hover{
+    background-color:#d4094d;
+    cursor: pointer;
+}
+
+.season2012-2013 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2012-2013:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2013-2014 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2013-2014:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+
+.season2014-2015 {
+    background-color: #910030; 
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2014-2015:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2015-2016 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-top: 19px;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2015-2016:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2016-2017 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2016-2017:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2017-2018 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2017-2018:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2018-2019 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2018-2019:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2019-2020 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2019-2020:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+
+.season2020-2021 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    border: 1mm;
+    margin-top: 19px;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2020-2021:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2021-2022 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-top: 19px;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2021-2022:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2022-2023 {
+    background-color: #910030; 
+    height: 40mm;
+    width: 40mm;
+    margin-top: 19px;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2022-2023:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2023-2024 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-top: 19px;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2023-2024:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2024-2025 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-top: 19px;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2024-2025:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2025-2026 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-top: 19px;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2025-2026:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2026-2027 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-top: 19px;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2026-2027:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+#seasontext0405 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0405{
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text0405{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0405:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton0405:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px  #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext0506 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0506 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text0506{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0506:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton0506:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext0607 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0607 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text0607{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0607:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton0607:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext0708 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0708 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text0708{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0708:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton0708:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext0809 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0809 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text0809{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0809:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton0809:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext0910 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0910 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text0910{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0910:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton0910:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext1011 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1011 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text1011{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1011:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton1011:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext1112 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1112 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text1112{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1112:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton1112:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext1213 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1213 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text1213{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1213:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton1213:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext1314 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1314 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text1314{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1314:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton1314:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext1415 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1415 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text1415{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1415:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton1415:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext1516 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1516 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text1516{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1516:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton1516:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext1617 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1617 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text1617{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1617:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton1617:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext1718 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1718 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text1718{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1718:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton1718:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext1819 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1819 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text1819{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1819:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton1819:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext1920 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1920 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text1920{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1920:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton1920:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext2021 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2021 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text2021{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2021:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton2021:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext2122 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2122 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text2122{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2122:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton2122:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext2223 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2223 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient( to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text2223{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2223:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton2223:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+#seasontext2324 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2324 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text2324{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2324:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton2324:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);  
+    transition: transform .2s;
+ }
+ #seasontext2425 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2425 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text2425{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2425:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton2425:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);  
+    transition: transform .2s;
+ }
+  #seasontext2526 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2526 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text2526{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2526:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton2526:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);  
+    transition: transform .2s;
+ }
+ #seasontext2627 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2627{
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text2627{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2627:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton2627:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px  #666;
+    transform: translateY(4px);
+    transition: transform .2s;
+ }
+ @media screen and (max-width: 1000px){
+    .FirstSixSeasonCards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .SecondSixSeasonCards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ThirdSixSeasonCards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .FourthSixSeasonCards{
+        flex-direction: column;
+        align-items: center;
+    }
+ }
+ @media screen and (max-width: 493px) {
+    .PageTitleBanner{
+        height: 2cm;
+    }
+ }
+ @media screen and (max-width: 272px){
+    .PageTitleBanner{
+        height: 3cm;
+    }
+ }
+ @media screen and (max-width: 204px){
+    .PageTitleBanner{
+        height: 4cm;
+    }
+ }
+ 
+
+
+    
+
+

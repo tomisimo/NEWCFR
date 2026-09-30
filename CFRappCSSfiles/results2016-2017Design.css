@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#seasonElements1617{
+    background-image: linear-gradient( rgb(177, 44, 44) , rgb(141, 121, 125));
+}
+.CR1617Rounds{
+    font-weight: 800;
+}
+.CLR1617Rounds{
+    font-weight: 800;
+}
+.LI1617TeamResults{
+    font-weight: 800;
+}
+.pageBackground1617{
+    background-image: linear-gradient(to right, rgb(177, 44, 44) , rgb(141, 121, 125));
+}
+.ChampionshipTable1617{
+    height: 70%;
+    width: 70%;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 1mm;
+    border-color: brown;
+}
+.CupTable1617{
+    height: 30%;
+    width: 70%;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 1mm;
+    border-color: brown;
+}
+.LeagueCupTable1617{
+    height: 30%;
+    width: 70%;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 1mm;
+    border-color: brown;
+}
+
+#buttonText{
+    color: rgb(54, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+}
+#buttonTextCupaRomaniei1617{
+    color: rgb(54, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+}
+#CupaLigiiRomaniei1617buttonText{
+    color: rgb(54, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+}
+#LigaI1617MainRoundResultsButton{
+    background-image: linear-gradient(to right,rgb(223, 56, 56), rgb(235, 148, 148));
+    margin-left: 0cm;
+    width: 40%;
+}
+#LigaI1617MainRoundResultsButton:hover{
+    cursor: pointer;
+}
+#LigaI1617PlayOffResultsButton{
+    background-image: linear-gradient(to right,rgb(223, 56, 56), rgb(235, 148, 148));
+    margin-left: 0cm;
+    width: 40%;
+}
+#LigaI1617PlayOffResultsButton:hover{
+    cursor: pointer;
+}
+#cupaRomaniei1617ResultsButton{
+    background-image: linear-gradient(to right,rgb(223, 56, 56), rgb(235, 148, 148));
+    margin-left: 0cm;
+    width: 55%;
+}
+#cupaRomaniei1617ResultsButton:hover{
+    cursor: pointer;
+}
+#cupaLigiiRomaniei1617ResultsButton{
+    background-image: linear-gradient(to right,rgb(223, 56, 56), rgb(235, 148, 148));
+    margin-left: 0cm;
+    width: 55%;
+}
+#cupaLigiiRomaniei1617ResultsButton:hover{
+    cursor: pointer;
+}
+#ligaI1617button{
+    margin-top: 1cm;
+    margin-left: 0.3cm;
+    background-image: linear-gradient(to right, #0f0453, darkslateblue);
+    height: 15mm;
+    width: 80%;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    box-shadow: 0px 6px 5px #751818;
+}
+#ligaI1617button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#ligaI1617button:active{
+    box-shadow: 0px 1px 5px #751818;
+    transform: translateY(8px);
+    transition: transform .2s;
+}
+
+#ligaI1617text{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+#cupaRomaniei1617button{
+    margin-top: 1cm;
+    margin-left: 0.3cm;
+    background-image: linear-gradient(to right, #0f0453, darkslateblue);
+    height: 15mm;
+    width: 80%;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    box-shadow: 0px 6px 5px #751818;
+}
+#cupaRomaniei1617button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#cupaRomaniei1617button:active{
+    box-shadow: 0px 1px 5px #751818;
+    transform: translateY(8px);
+    transition: transform .2s;
+}
+#cupaRomaniei1617text{
+    color:aliceblue;
+    font-size: 20px;
+}
+#cupaLigiiRomaniei1617button{
+    margin-top: 1cm;
+    margin-left: 0.3cm;
+    background-image: linear-gradient(to right, #0f0453, darkslateblue);
+    height: 20mm;
+    width: 80%;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    box-shadow: 0px 6px 5px #751818;
+}
+#cupaLigiiRomaniei1617button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#cupaLigiiRomaniei1617button:active{
+    box-shadow: 0px 1px 5px #751818;
+    transform: translateY(8px);
+    transition: transform .2s;
+}
+
+#cupaLigiiRomaniei1617text{
+    color:aliceblue;
+    font-size: 20px;
+}
+#seasonElements1617{
+    display: flex;
+    flex-direction: row;
+}
+
+#competitionsTable1617{
+    display: flex;
+    flex-direction: column;
+}
+#chooseCompetition1617Message{
+    background-color: cadetblue;
+    font-size: 30px;
+    border: #1f1717;
+    border-style:outset;
+    margin-left: 0;
+    height: 1cm;
+    width: auto;
+}
+table, th, tr, td{
+    background-color: white;
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+#LigaI1617MainRoundTable{
+    position: absolute;
+    width: 30%;
+    border-width: 1px;
+}
+#LigaI1617PlayOffTable{
+    position: absolute;
+    width: 30%;
+    border-width: 1px;
+}
+#cupaRomaniei1617Table{
+    position: absolute;
+    width: 30%;
+    border-width: 1px;
+}
+#cupaLigiiRomaniei1617Table{
+    position: absolute;
+    width: 30%;
+    border-width: 1px;
+}
+#season1617buttons{
+    margin-top: 0.5cm;
+    background-color: #514e72;
+    border: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    height: 9cm;
+    width: 28%;
+    margin-left: 1cm;
+    display: flex;
+    flex-direction: column;
+}
+#competitionsTable1617{
+    margin-top: 0.5cm;
+    background-color: grey;
+    margin-left: 1cm;
+    width: 60%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 4px;
+}
+#RelegatedTeamsDropdown1617Elements{
+    position: absolute;
+    border-style: groove;
+    border-color: #1f1717;
+    width: 35%;
+    font-size: 18px;
+}
+#RelegatedDropdown1617Button{
+    color: rgb(54, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+    width: 35%;
+
+}
+#PromotedTeamsDropdown1718Elements{
+    position: absolute;
+    border-style: groove;
+    border-color: #1f1717;
+    width: 35%;
+    font-size: 18px;
+}
+#PromotedDropdown1718Button{
+    color: rgb(54, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+    width: 35%;
+
+}
+/* Competitions buttons container and competitons results presentation container resizing */
+@media screen and (max-width: 800px){
+    #seasonElements1617{
+        flex-direction: column;
+    }
+}
+
+/* Choose competition message resizing */
+@media screen and (max-width: 585px){
+    #chooseCompetition1617Message{
+        height: 2cm;
+    }
+}
+@media screen and (max-width: 305px){
+    #chooseCompetition1617Message{
+        height: 3cm;
+    }
+}
+
+/* Competitions names from buttons resizing */
+@media screen and (max-width: 965px){
+    #ligaI1617text{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 870px){
+    #ligaI1617text{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 760px){
+    #ligaI1617text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 410px){
+    #ligaI1617text{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 965px){
+    #cupaRomaniei1617text{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 870px){
+    #cupaRomaniei1617text{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 760px){
+    #cupaRomaniei1617text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 410px){
+    #cupaRomaniei1617text{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 965px){
+    #cupaLigiiRomaniei1617text{
+        font-size: 18px;
+        
+    }
+}
+@media screen and (max-width: 870px){
+    #cupaLigiiRomaniei1617text{
+        font-size: 16px;
+        
+    }
+}
+@media screen and (max-width: 760px){
+    #cupaLigiiRomaniei1617text{
+        font-size: 14px;
+        
+    }
+}
+@media screen and (max-width: 410px){
+    #cupaLigiiRomaniei1617text{
+        font-size: 12px;
+        
+    }
+}
+
+/* Relegated and Promoted dropdowns resizing */
+@media screen and (max-width: 590px) {
+    #RelegatedTeamsDropdown1617Elements{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 390px) {
+    #RelegatedTeamsDropdown1617Elements{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 590px) {
+    #PromotedTeamsDropdown1718Elements{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 390px) {
+    #PromotedTeamsDropdown1718Elements{
+        font-size: 12px;
+    }
+}
+
+/* LIGA I 16-17 main round results table resizing */
+@media screen and (max-width: 310px){
+    #LigaI1617MainRoundTable{
+        font-size: 15px;
+    }
+}
+
+/* LIGA I 16-17 play-off round results table resizing */
+@media screen and (max-width: 350px){
+    #LigaI1617PlayOffTable{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #LigaI1617PlayOffTable{
+        font-size: 13px;
+    }
+}
+

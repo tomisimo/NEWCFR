@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#seasonElements1718{
+    background-image: linear-gradient( rgb(177, 44, 44) , rgb(141, 121, 125));
+}
+.CR1718Rounds{
+    font-weight: 800;
+}
+.SCR18Round{
+    font-weight: 800;
+}
+.LI1718TeamResults{
+    font-weight: 800;
+}
+.pageBackground1718{
+    background-image: linear-gradient(to right, rgb(177, 44, 44) , rgb(141, 121, 125));
+}
+.ChampionshipTable1718{
+    height: 70%;
+    width: 70%;
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 1mm;
+    border-color: brown;
+}
+.CupTable1718{
+    height: 30%;
+    width: 70%;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 1mm;
+    border-color: brown;
+}
+.SuperCupTable18{
+    height: 30%;
+    width: 70%;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 1mm;
+    border-color: brown;
+}
+
+#ligaI1718button{
+    margin-top: 1cm;
+    margin-left: 0.3cm;
+    background-image: linear-gradient(to right, #0f0453, darkslateblue);
+    height: 15mm;
+    width: 80%;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    box-shadow: 0px 6px 5px #751818;
+}
+#ligaI1718button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#ligaI1718button:active{
+    box-shadow: 0px 1px 5px #751818;
+    transform: translateY(8px);
+    transition: transform .2s;
+}
+
+#ligaI1718text{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+#cupaRomaniei1718button{
+    margin-top: 1cm;
+    margin-left: 0.3cm;
+    background-image: linear-gradient(to right, #0f0453, darkslateblue);
+    height: 15mm;
+    width: 80%;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    box-shadow: 0px 6px 5px #751818;
+}
+#cupaRomaniei1718button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#cupaRomaniei1718button:active{
+    box-shadow: 0px 1px 5px #751818;
+    transform: translateY(8px);
+    transition: transform .2s;
+}
+#cupaRomaniei1718text{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+#supercupaRomaniei18button{
+    margin-top: 1cm;
+    margin-left: 0.3cm;
+    background-image: linear-gradient(to right, #0f0453, darkslateblue);
+    height: 20mm;
+    width: 90%;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    box-shadow: 0px 6px 5px #751818;
+}
+#supercupaRomaniei18button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#supercupaRomaniei18button:active{
+    box-shadow: 0px 1px 5px #751818;
+    transform: translateY(8px);
+    transition: transform .2s;
+}
+#supercupaRomaniei18text{
+    color:aliceblue;
+    font-size: 20px;
+}
+#seasonElements1718{
+    display: flex;
+    flex-direction: row;
+}
+
+#competitionsTable1718{
+    display: flex;
+    flex-direction: column;
+}
+#chooseCompetition1718Message{
+    background-color: cadetblue;
+    font-size: 30px;
+    border: #1f1717;
+    border-style:outset;
+    margin-left: 0;
+    height: 1cm;
+    width: auto;
+}
+#buttonText{
+    color: rgb(54, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+}
+#buttonTextCupaRomaniei1718{
+    color: rgb(54, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+}
+#SupercupaRomaniei18buttonText{
+    color: rgb(54, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+}
+#LigaI1718MainRoundResultsButton{
+    background-image: linear-gradient(to right,rgb(223, 56, 56), rgb(235, 148, 148));
+    margin-left: 0cm;
+    width: 40%;
+}
+#LigaI1718MainRoundResultsButton:hover{
+    cursor: pointer;
+}
+#LigaI1718PlayOffResultsButton{
+    background-image: linear-gradient(to right,rgb(223, 56, 56), rgb(235, 148, 148));
+    margin-left: 0cm;
+    width: 40%;
+}
+#LigaI1718PlayOffResultsButton:hover{
+    cursor: pointer;
+}
+#cupaRomaniei1718ResultsButton{
+    background-image: linear-gradient(to right,rgb(223, 56, 56), rgb(235, 148, 148));
+    margin-left: 0cm;
+    width: 55%;
+}
+#cupaRomaniei1718ResultsButton:hover{
+    cursor: pointer;
+}
+#supercupaRomaniei18ResultsButton{
+    background-image: linear-gradient(to right,rgb(223, 56, 56), rgb(235, 148, 148));
+    margin-left: 0cm;
+    width: 65%;
+}
+#supercupaRomaniei18ResultsButton:hover{
+    cursor: pointer;
+}
+table, th, tr, td{
+    background-color: white;
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+#LigaI1718MainRoundTable{
+    position: absolute;
+    width: 30%;
+    border-width: 1px;
+}
+#LigaI1718PlayOffTable{
+    position: absolute;
+    width: 30%;
+    border-width: 1px;
+}
+#cupaRomaniei1718Table{
+    position: absolute;
+    width: 30%;
+    border-width: 1px;
+}
+#supercupaRomaniei18Table{
+    position: absolute;
+    width: 30%;
+    border-width: 1px;
+}
+#season1718buttons{
+    margin-top: 0.5cm;
+    background-color: #514e72;
+    border: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    height: 9cm;
+    width: 28%;
+    margin-left: 1cm;
+    display: flex;
+    flex-direction: column;
+}
+#competitionsTable1718{
+    margin-top: 0.5cm;
+    background-color: grey;
+    margin-left: 1cm;
+    width: 60%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 4px;
+}
+#RelegatedTeamsDropdown1718Elements{
+    position: absolute;
+    border-style: groove;
+    border-color: #1f1717;
+    width: 35%;
+    font-size: 18px;
+}
+#RelegatedDropdown1718Button{
+    color: rgb(54, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+    width: 35%;
+
+}
+#PromotedTeamsDropdown1819Elements{
+    position: absolute;
+    border-style: groove;
+    border-color: #1f1717;
+    width: 35%;
+    font-size: 18px;
+}
+#PromotedDropdown1819Button{
+    color: rgb(54, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+    width: 35%;
+
+}
+/* Competitions buttons container and competitons results presentation container resizing */
+@media screen and (max-width: 800px){
+    #seasonElements1718{
+        flex-direction: column;
+    }
+}
+
+/* Choose competition message resizing */
+@media screen and (max-width: 585px){
+    #chooseCompetition1718Message{
+        height: 2cm;
+    }
+}
+@media screen and (max-width: 305px){
+    #chooseCompetition1718Message{
+        height: 3cm;
+    }
+}
+
+/* Competitions names from buttons resizing */
+@media screen and (max-width: 965px){
+    #ligaI1718text{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 870px){
+    #ligaI1718text{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 760px){
+    #ligaI1718text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 410px){
+    #ligaI1718text{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 965px){
+    #cupaRomaniei1718text{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 870px){
+    #cupaRomaniei1718text{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 760px){
+    #cupaRomaniei1718text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 410px){
+    #cupaRomaniei1718text{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 965px){
+    #supercupaRomaniei18text{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 870px){
+    #supercupaRomaniei18text{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 760px){
+    #supercupaRomaniei18text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 410px){
+    #supercupaRomaniei18text{
+        font-size: 12px;
+    }
+}
+
+/* Relegated and Promoted dropdowns resizing */
+@media screen and (max-width: 590px) {
+    #RelegatedTeamsDropdown1718Elements{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 390px) {
+    #RelegatedTeamsDropdown1718Elements{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 590px) {
+    #PromotedTeamsDropdown1819Elements{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 390px) {
+    #PromotedTeamsDropdown1819Elements{
+        font-size: 12px;
+    }
+}
+
+/* SUPERCUPA ROMANIEI label */
+@media screen and (max-width: 350px){
+    #supercupaRomaniei18Label{
+        font-size: 20px;
+    }
+}
+
+/* LIGA I 17-18 main round results table resizing */
+@media screen and (max-width: 310px){
+    #LigaI1718MainRoundTable{
+        font-size: 15px;
+    }
+}
+
+/* LIGA I 17-18 play-off round results table resizing */
+@media screen and (max-width: 350px){
+    #LigaI1718PlayOffTable{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #LigaI1718PlayOffTable{
+        font-size: 13px;
+    }
+}
+
+
+

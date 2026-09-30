@@ -1,0 +1,117 @@
+#popup-main-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+#dialog-content{
+    width: 800px;
+    height: 400px;
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: rgba(212, 235, 11, 0.801);
+    border-radius: 20px;
+}
+
+.showHonoursBtn{
+    cursor: pointer;
+    width: 20%;
+    height: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    color: green;
+    background-color: rgb(190, 149, 11);
+}
+#closeHonoursBtn{
+    cursor: pointer;
+    width: 40%;
+    height: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    color: red;
+    background-color: rgb(190, 149, 11);
+}
+
+
+#popup-box{
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+}
+#liga1Results{
+    padding-left: 30px;
+}
+#liga2Results{
+    padding-left: 30px;
+}   
+#liga3Results{
+    padding-left: 30px;
+}    
+#cupaRomanieiAllTimeResults{
+    padding-left: 30px;
+} 
+#supercupaRomanieiAllTimeResults{
+    padding-left: 30px;
+}
+#uefaIntertotoCupResults{
+    padding-left: 30px;
+}
+#uefaCupResults{
+    padding-left: 30px;
+}
+#uefaConferenceLeagueResults{
+    padding-left: 30px;
+}
+#uefaEuropaLeagueResults{
+    padding-left: 30px;
+}
+#uefaCHampionsLeagueResults{
+    padding-left: 30px;
+}
+.showHonoursBtnText{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 990px){
+    .showHonoursBtn{
+        height: 40px;
+    }
+}
+@media screen and (max-width: 590px){
+    .showHonoursBtn{
+        height: 52px;
+    }
+}
+@media screen and (max-width: 450px){
+    .showHonoursBtn{
+        height: 60px;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .showHonoursBtnText{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px){
+    .showHonoursBtnText{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 410px){
+    .showHonoursBtnText{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 360px){
+    .showHonoursBtnText{
+        font-size: 11px;
+    }
+}
+    
